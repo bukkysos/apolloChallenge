@@ -7,7 +7,10 @@ export const NewView = () => {
   const [news, setNews] = useState([]);
 
     useEffect(() => {
-        getStoryIds().then(data => setNews(data.data))
+        getStoryIds().then(data => setNews(data.data));
+        return () => {
+          setNews(false)
+        } 
       }, []);
 
     return (<>
