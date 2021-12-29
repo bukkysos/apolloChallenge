@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "Geneva";
+  src: url("./assets/fonts/GENEVA.TTF");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Verdana";
+  src: url("./assets/fonts/verdana.ttf");
+  font-weight: 400;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Geneva', 'Verdana', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 10pt;
+}
+
