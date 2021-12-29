@@ -1,38 +1,56 @@
-.App {
-  text-align: center;
+p {
+  color: #000;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a {
+  text-decoration: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.feed_wrapper {
+  background-color: #F6F6EF;
+  height: auto
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.apollo_nav {
+  background-color: rgb(255, 102, 0);
+  height: 30px;
 }
 
-.App-link {
-  color: #61dafb;
+.apollo_nav img{
+  margin-right: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar-brand{
+font-weight: 900;
+}
+
+nav > ul {
+  /* border: 1px solid #fff; */
+  list-style: none;
+  height: 60%;
+}
+
+.navbar-collapse > ul li {
+  width: auto;
+  height: 100%;
+  cursor: pointer;
+}
+
+.navbar-collapse > ul li:not(:last-child) {
+  border-right: 1px solid;
+}
+
+.news {
+  cursor: pointer;
+}
+
+.news_number {
+  font-weight: 600;
+}
+
+.news > img {
+  width: 10px;
+  height: 10px;
+  margin: 2px 0px;
 }
